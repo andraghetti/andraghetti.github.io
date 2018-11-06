@@ -1,0 +1,266 @@
+.intro-01{
+    background: url('../images/bg/mainbg.png') 50% 0 no-repeat fixed;
+    background-size: cover;
+	background-attachment: fixed;
+    background-position: center center;
+	background-color: grey;
+}
+
+.img-src.blurred-img {
+  opacity: 0;
+}
+
+.shadow {
+
+	text-shadow: 0px 0px 6px black;
+}
+
+
+.intro-01 h3{
+    font-family: 'Raleway',sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    line-height: 58px;
+    margin-bottom: 10;
+    padding: 0;
+    text-transform: uppercase;
+	text-shadow: 0px 0px 6px black;
+}
+.intro-01 h1 > span {
+    border: 1px solid;
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    line-height: 19px;
+    padding: 15px;
+    text-transform: uppercase;
+	text-shadow: 0px 0px 6px black;
+}
+
+.intro-carousel .owl-controls{
+    margin-top: -150px !important;
+}
+.intro-02 h1{
+    font-family: 'Raleway',sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    line-height: 31px;
+    padding: 30px 10% 0 10%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.intro-02 h6{
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 19px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.intro-02 h6 > span{
+    padding: 10px;
+}
+.intro-02 h6 .bullet{
+    margin: 0 5px;
+    opacity: 0.7;
+}
+.intro-02-carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.intro-02-carousel-item-01{
+    background-image:url(../images/bg/macWal.png);
+}
+
+.intro-02-carousel-item-02{
+    background-image:url(../images/bg/macWal.png);
+}
+
+.intro-02-carousel-item-03{
+    background-image:url(../images/bg/macWal.png);
+}
+
+.intro-03 .pad-inner{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.intro-03 h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 96px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    line-height: 103px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.intro-03 h4{
+    font-family: 'Raleway',sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 31px;
+    margin-bottom: 30px;
+}
+
+.intro-03-carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.intro-03-carousel-item-01{
+    background-image:url(../images/bg/macWal.png);
+}
+
+.intro-03-carousel-item-02{
+    background-image:url(../images/bg/macWal.png);
+}
+
+.intro-03-carousel-item-03{
+    background-image:url(../images/bg/macWal.png);
+}
+
+.intro-04{
+    background:transparent;
+}
+.intro-04 h3{
+    font-family: 'Raleway',sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    line-height: 58px;
+    margin-bottom: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.intro-04 h1 > span {
+    border: 1px solid;
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 19px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.intro-05{
+    background: url('../images/bg/macWal.png') 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+.intro-05 h1{
+    font-family: 'Raleway',sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    line-height: 31px;
+    padding: 30px 10% 0 10%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.intro-05 h6{
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 19px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.intro-05 h6 > span{
+    padding: 10px;
+}
+.intro-05 h6 .bullet{
+    margin: 0 5px;
+    opacity: 0.7;
+}
+
+.intro-06 h1{
+    font-family: 'Raleway',sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 31px;
+    padding: 30px 10% 0 10%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+	text-shadow: 0px 0px 6px black;
+	color: white;
+	
+}
+
+.intro-06 h1>span{
+    padding: 10px;
+}
+.intro-06-carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.intro-06-carousel-item-01{
+    background-image:url(../images/projects/DropGraphic/1.png);
+}
+
+.intro-06-carousel-item-02{
+    background-image:url(../images/projects/DropGraphic/2.jpg);
+}
+
+.intro-06-carousel-item-03{
+    background-image:url(../images/projects/DropGraphic/3.jpg);
+}
+.intro-06-carousel-item-04{
+    background-image:url(../images/projects/DropGraphic/4.jpg);
+}
+.intro-06-carousel-item-05{
+    background-image:url(../images/projects/DropGraphic/5.jpg);
+}
+.intro-06-carousel-item-06{
+    background-image:url(../images/projects/DropGraphic/6.jpg);
+}
+.intro-06-carousel-item-07{
+    background-image:url(../images/projects/DropGraphic/7.jpg);
+}
+.intro-06-carousel-item-08{
+    background-image:url(../images/projects/DropGraphic/8.jpg);
+}
+.intro-06-carousel-item-09{
+    background-image:url(../images/projects/DropGraphic/9.jpg);
+}
+.intro-06-carousel-item-10{
+    background-image:url(../images/projects/DropGraphic/10.jpg);
+}
+.intro-06-carousel-item-11{
+    background-image:url(../images/projects/DropGraphic/11.jpg);
+}
+.intro-06-carousel-item-0{
+    background-image:url(../images/projects/DropGraphic/0.jpg);
+}
+
+.intro-07{
+    background: url('../images/bg/macWal.png') 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+.intro-07 h3{
+    font-family: 'Raleway',sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    line-height: 48px;
+    margin-bottom: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.poster-img{
+    background-image: url('../images/bg/macWal.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}

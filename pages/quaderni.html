@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quaderni Alfonsinesi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sito di Lorenzo Andraghetti">
+<meta name="author" content="Lorenzo Andraghetti">
+
+<!-- Standard Favicon--> 
+<link rel="shortcut icon" href="images/favicon/favicon.ico">
+
+<!-- Standard iPhone Touch Icon--> 
+<link rel="apple-touch-icon" sizes="57x57" href="images/touchicons/apple-touch-icon-57-precomposed" />
+<!-- Retina iPhone Touch Icon--> 
+<link rel="apple-touch-icon" sizes="114x114" href="assets/touchicons/apple-touch-icon-114-precomposed" />
+<!-- Standard iPad Touch Icon--> 
+<link rel="apple-touch-icon" sizes="72x72" href="assets/touchicons/apple-touch-icon-72-precomposed" />
+<!-- Retina iPad Touch Icon--> 
+<link rel="apple-touch-icon" sizes="144x144" href="assets/touchicons/apple-touch-icon-144-precomposed" />
+
+<!-- Bootstrap CSS Files -->
+<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+<!-- Custom Fonts Setup via Font-face CSS3 -->
+<link href="../fonts/fonts.css" rel="stylesheet">
+<!-- Main Template Styles -->
+<link href="../stylesheets/main.css" rel="stylesheet">
+<link href="../stylesheets/MyBase.css" rel="stylesheet">
+<!-- Main Template Responsive Styles -->
+<link href="../stylesheets/main-responsive.css" rel="stylesheet">
+<!-- Main Template Retina Optimizaton Rules -->
+<link href="../stylesheets/main-retina.css" rel="stylesheet">
+<!-- LESS stylesheet for managing color presets -->
+<link rel="../stylesheet/less" type="text/css" href="less/color.less">
+<!-- LESS JS engine-->
+<script src="../less/less-1.5.0.min.js"></script>
+<!-- Google Web Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,900%7COpen+Sans:400,300,700,800%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body onload="caricaQuaderni()" id="grad">
+		<div class="container">
+				<h1>Quaderni Alfonsinesi</h1>
+				<h3>Note di cultura popolare a cura della Biblioteca A.Orioli di Alfonsine</h4>
+				<h5>Questa pagina raccoglie le scannerizzazioni dei Quaderni Alfonsinesi, note di cultura popolare a cura della Biblioteca A. Orioli di Alfonsine.</br>In questa pagina è possibile <b>visualizzare</b> il testo dei quaderni, <b>scaricare</b> i quaderni in formato PDF e <b>ricercare</b> parole all'interno dei quaderni.</h5>
+				
+				<!-- <p>Questi quaderni sono stati portati a voi grazie all'aiuto di: Luciano Lucci, Giustina Baioni e Lorenzo Andraghetti.</p> -->
+				
+				<!-- VISUALIZZA -->
+				<div class="visualizza" id="top">
+					<h2>Visualizza</h2>
+					<h4>Seleziona un quaderno per <b>visualizzarlo</b></h4>
+				
+					<ul class="inline" id="bottoni">
+					</ul>
+					<div id="loading">
+					</div>
+					<br class="clearBoth" /></br>
+				</div>
+				
+				
+				<!-- SCARICA -->
+				<div class="scarica">
+					<h2>Scarica</h2>
+					<h4>Seleziona un quaderno per <b>scaricarlo</b></h4>
+					<ul class="inline" id="download"></ul>
+					<br class="clearBoth" /></br>
+				</div>
+				
+			<br class="clearBoth" /></br>
+				<!-- RICERCA -->
+				<div class="ricerca">
+					<h2>Ricerca</h2>
+					<h4>Attraverso questa barra di <b>ricerca</b> è possibile trovare delle parole chiave presenti nei quaderni.</h4>
+					  <input type="text" id="barra" name="Cerca" placeholder="Cerca nei quaderni..." onkeyup="risultati(this)"></br>
+				  	</br>
+					<p id="risposta"></p>
+					<ul class="inline" id="risultati">
+					</ul>
+					<br class="clearBoth" /></br>
+				</div>
+				
+				<br class="clearBoth" /></br>
+				
+				<!-- TESTO -->
+				<div id="txtviewer">
+					</br>
+					<h3 class="text-center">Seleziona un quaderno per visualizzarlo!</h3>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+				</div>
+		</div>
+		
+		
+		
+
+
+<!-- Footer : starts -->
+<footer id="mastfoot" class="mastfoot color-bg">
+	<a href="#" class="go-top">Torna su ↑</a>
+
+<!-- inner-section:starts -->
+<section class="inner-section social-wrap">
+	<div class="container">
+		<article class="text-center" class="inline">
+			<a href="../index.html" class="foot-social"><p class="credits">Torna al sito di</br>Lorenzo Andraghetti</p></a>
+			<script type="text/javascript" src="https://counter4.01counter.com/private/counter.js?c=718b4280cb2adf57837063d2aa814505"></script>
+			<noscript><a href="http://www.freecounterstat.com" title="free counter for my website"><img src="https://counter4.01counter.com/private/freecounterstat.php?c=718b4280cb2adf57837063d2aa814505" border="0" title="free counter for my website" alt="free counter for my website"></a>
+			</noscript>
+			<br/>
+		</article>
+	</div>
+</section>
+<!-- inner-section:ends -->
+
+</footer>
+<!-- Footer : ends -->
+
+
+
+
+
+</section>
+<!-- Master Wrap : ends -->
+
+
+<!-- Core JS Libraries -->
+<script src="../bootstrap/js/jquery.js" type="text/javascript"></script>
+<script src="../javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="../bootstrap/js/bootstrap.js" ></script> 
+<!-- JS Plugins -->
+<script src="../javascripts/retina.js" ></script>
+<!-- JS Custom Codes -->
+<script src="../javascripts/myscripts/quaderni.js"></script>
+<script src="../javascripts/myscripts/highlight.js"></script>
+
+</body>
+</html>

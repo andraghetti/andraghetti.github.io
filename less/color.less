@@ -1,0 +1,221 @@
+@color:#3D4048;
+@colorSub:#00CB96;
+@white:#FFFFFF;
+@semi-white:#F9F9F9;
+@silver:#F2F2F2;
+@grey:#CCCCCC;
+@dark:#2d2d2d;
+@transDark:rgba(0,0,0,0.4);
+@transWhite:rgba(255,255,255,0.8);
+
+@base: #f938ab;
+
+.box-shadow(@style, @c) when (iscolor(@c)) {
+  -webkit-box-shadow: @style @c;
+  box-shadow:         @style @c;
+}
+.box-shadow(@style, @alpha: 50%) when (isnumber(@alpha)) {
+  .box-shadow(@style, rgba(0, 0, 0, @alpha));
+}
+.box {
+  color: saturate(@base, 5%);
+  border-color: lighten(@base, 30%);
+  div { .box-shadow(0 0 5px, 30%) }
+}
+.white{
+	color:@white;
+}
+.semi-white{
+	color:@semi-white;
+}
+.silver{
+	color:@silver;
+}
+.dark{
+	color:@dark;
+}
+.grey{
+	color:@grey ;
+}
+.color{
+	color:@color;
+}
+.color-sub{
+	color:@colorSub;
+}
+.white-bg{
+	background-color:@white;
+}
+.semi-white-bg{
+	background-color:@semi-white;
+}
+.silver-bg{
+	background-color:@silver;
+}
+.dark-bg{
+	background-color:@dark;
+}
+.grey-bg{
+	background-color:@grey;
+}
+.color-bg{
+	background-color:@color;
+}
+.color-sub-bg{
+	background-color:@colorSub;
+}
+.trans-dark{
+	background-color:@transDark;
+}
+.trans-white{
+	background-color:@transWhite;
+}
+
+::selection {
+	background: @color;
+	color:@white;
+	}
+::-moz-selection {
+	background: @color;
+	color:@white;
+}
+.pace .pace-progress {
+  background-color: @dark;
+}
+
+.ajax-loader-html {
+	background:@color;
+}
+.intro .mouse-icon.dark {
+    	border-color:@dark;
+}
+.intro .mouse-icon.dark .wheel {
+    	background-color:@dark;
+}
+.intro .mouse-icon.dark:hover .wheel {
+    	background-color:@dark;
+}
+
+.intro .mouse-icon.white {
+    	border-color:@white;
+}
+.intro .mouse-icon.white .wheel {
+    	background-color:@white;
+}
+.intro .mouse-icon.white:hover .wheel {
+    	background-color:@white;
+}
+.promo-text  h3 > span{
+	border-top-color:  @color;
+	border-bottom-color:  @color;
+}
+.active-service {
+	background:@color;
+}
+
+.hero-caps h1 > span {
+    border-color:@color;
+}
+.testimonial-wrap > h3 > span{
+    border-color:@color;
+}
+
+ul#portfolioFilter li {
+	background:@silver;
+}
+ul#portfolioFilter li:hover {
+	background:@dark;
+	color:@white;
+}
+
+
+ul#portfolioFilter li.active-filter {
+	background:@color;
+	color:@dark;
+}
+
+div#portfolio_thumbs ul li div.item_info {
+	background:@color;
+	color:@dark;
+}
+
+div#portfolio_thumbs ul li div.item_info h3  > span{
+    border-color:@dark;
+	color:@dark;
+}
+div#portfolio_thumbs ul li div.item_info p  > span{
+	color:@dark;
+}
+
+.team-stage > h6 > span{
+    border-color:@color;
+	color:@dark;
+}
+
+.standard-nav-white-text li > a, .top-nav-white-text li > a, .intro-nav-white-text li > a,{
+	color:@white;
+}
+.standard-nav-dark-text li > a, .top-nav-dark-text li > a, .intro-nav-dark-text li > a,{
+	color:@dark;
+}
+.standard-nav li > a:hover, .top-nav li > a:hover, .intro-nav li > a:hover,{
+	color:@color;
+}
+.standard-nav li > a.highlighted {
+	color:@color;
+	border-color:@color;
+}
+.project-type > span{
+	border-color:@color;
+}
+
+.item:hover > a > .thumb-title{
+	background:@color;
+}
+
+.thumb-title > h5 > span{
+	background:@white;
+	color:@dark;
+	border-color: @white;
+}
+.alert{
+	background:@color;
+}
+.alert > p{
+	color:@white !important;
+}
+.controls-wrap{
+	background:@silver;
+}
+.project-overlay{
+	background:@color;
+}
+.project-name, .project-categories{
+	color:@white;
+}
+#filters ul li a h5 {
+	color:@dark;
+	background:@white;
+}
+
+.stats-item h3 > span{
+	border-color: @color;
+}
+.border-form{
+	border-color: @silver !important;
+}
+.border-form:focus{
+	background:@color !important;
+}
+
+.intro-01 h1 > span {
+    border-color:@white;
+}
+#filters ul li a:hover h5, #filters ul li a.active h5 {
+	color:@white;
+	background:@color;
+}
+
+.active-service h3, .active-service p{
+	color:@color;
+}

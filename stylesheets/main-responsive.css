@@ -1,0 +1,1495 @@
+/*MAIN.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: trinity.*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2014 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*==========================*/
+/*ALL DEVICE OPTIMIZATION*/
+/*===========================*/
+
+/*Huge Displays*/
+@media (min-width: 3000px) {
+	 
+	.team-block-wrap{
+		padding: 260px 300px;
+	}
+	#sm-trigger{
+		display: none;
+	}
+
+}
+
+/*Projector Screens and Ver Large Monitors*/
+@media (min-width: 2561px) {
+	.team-block-wrap{
+		padding: 260px 300px;
+	}
+	  
+	#sm-trigger{
+		display: none;
+	}
+
+}
+
+/*iMac 27, HD Screens and Large Monitors*/
+@media (min-width: 1921px) and (max-width: 2560px) {
+	.team-block-wrap{
+		padding: 260px 300px;
+	}
+	 
+	#sm-trigger{
+		display: none;
+	}
+
+}
+
+/*Large Widescreen Monitors*/
+@media (max-width: 1920px) {
+	.team-block-wrap{
+		padding: 160px 200px;
+	}
+	#sm-trigger{
+		display: none;
+	}
+}
+
+/*Medium Widescreen Monitors*/
+@media (max-width: 1680px) {
+
+	.team-block-wrap{
+		padding: 160px 200px;
+	}
+	#sm-trigger{
+		display: none;
+	}
+}
+
+/*Large Widescreen Laptops*/
+@media (max-width: 1440px) {
+	.team-block-wrap{
+		padding: 80px 120px;
+	}
+	#sm-trigger{
+		display: none;
+	}
+}
+
+/*Common Widescreen Laptops*/
+@media (max-width: 1366px) {
+	.team-block-wrap{
+		padding: 80px 120px;
+	}
+	#sm-trigger{
+		display: none;
+	}
+}
+
+
+/*Very Large Tablets and Medium Laptops*/
+@media (max-width: 1280px) {
+	.team-block-wrap{
+		padding: 80px 120px;
+	}
+	#sm-trigger{
+		display: none;
+	}
+}
+
+/*Notebooks and Small Laptops*/
+@media (max-width: 1152px) {
+	.team-block-wrap{
+		padding: 80px 120px;
+	}
+	#sm-trigger{
+		display: none;
+	}
+}
+
+/*iPad Landscape Mode and Large Tablets */
+@media (max-width: 1024px) {
+	.container{
+	    max-width: 800px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.btn{
+		width: 100%;
+	}
+	.intro-header, .standard-header{
+		display: none !important;
+	}
+	.intro .btn{
+		width: 50%;
+	}
+	.team-block-wrap, .news-block-wrap{
+		padding: 40px;
+	}
+	#sm-trigger{
+		display: block;
+	}
+}
+
+/*Small Desktop and Very Small Notebook */
+@media (max-width: 980px) {
+	.container{
+	    max-width: 800px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 50px;
+	}
+	.pad-bottom{
+		padding-bottom: 50px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	.inner-section{
+		padding: 80px 0;
+	}
+	.intro-header, .standard-header{
+		display: none !important;
+	}
+	.owl-controls{
+		display: none !important;
+	}
+	.intro-06 h1{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.intro-06 h1 > span{
+		background:transparent;
+	}
+	.hero-caps h1 > span{
+		border:none;
+		padding: 0px;
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.hero-caps h3{
+		font-size: 14px;
+	}
+	.main-heading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.left-wallpaper, .right-wallpaper{
+		display: none;
+	}
+	.promotional h1{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.promotional h3 > span{
+		border:none;
+	}
+	.item img{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.service-item{
+		text-align: center;
+	}
+	#filters ul li{
+		width: 90%;
+	}
+	.testimonial-carousel-item{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.intro .btn{
+		width: 50%;
+	}
+	.team-block-inner{
+		text-align: center;
+	}
+	.team-thumb{
+		display: inline-block;
+	}
+	.page-section, .separator-section{
+		padding: 0;
+	}
+	.intro .btn{
+		width: 50%;
+	}
+	.team-block-wrap, .news-block-wrap{
+		padding: 40px;
+	}
+	
+	
+}
+
+/*Medium Tablets */
+@media (max-width: 800px) {
+	  .container{
+	    max-width: 668px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 50px;
+	}
+	.pad-bottom{
+		padding-bottom: 50px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	.inner-section{
+		padding: 60px 0;
+	}
+	.intro-header, .standard-header{
+		display: none !important;
+	}
+	.owl-controls{
+		display: none !important;
+	}
+	.intro-06 h1{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.intro-06 h1 > span{
+		background:transparent;
+	}
+	.hero-caps h1 > span{
+		border:none;
+		padding: 0px;
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.hero-caps h3{
+		font-size: 14px;
+	}
+	.main-heading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.left-wallpaper, .right-wallpaper{
+		display: none;
+	}
+	.promotional h1{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.promotional h3 > span{
+		border:none;
+	}
+	.item img{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.service-item{
+		text-align: center;
+	}
+	#filters ul li{
+		width: 90%;
+	}
+	.testimonial-carousel-item{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.intro .btn{
+		width: 50%;
+	}
+	.team-block-inner{
+		text-align: center;
+	}
+	.team-thumb{
+		display: inline-block;
+	}
+	.page-section, .separator-section{
+		padding: 0;
+	}
+	.intro-01 h3 {
+    	font-size: 36px;
+    	line-height: 48px;
+	}
+	.intro-01 h1 > span{
+		border:none;
+	}
+	.intro-02 h1{
+		font-size: 28px;
+		line-height: 35px;
+	}
+	.intro-02 h6 {
+    	font-size: 24px;
+    	line-height: 36px;
+	}
+	.intro-02 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-03 h1 {
+	    font-size: 42px;
+	    line-height: 54px;
+	}
+	.intro-03 h4 {
+	    font-size: 28px;
+	    line-height: 38px;
+	}
+	.intro-04 h3 {
+    	font-size: 36px;
+    	line-height: 48px;
+	}
+	.intro-04 h1 > span{
+		border:none;
+	}
+	.intro-05 h1{
+	    font-size: 28px;
+	    line-height: 35px;
+	}
+	.intro-05 h6{
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.intro-05 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-07 h3 {
+	    font-size: 28px;
+	    line-height: 42px;
+	}
+	.intro .btn{
+		width: 50%;
+	}
+	.team-block-wrap, .news-block-wrap{
+		padding: 40px;
+	}
+	
+}
+
+/*iPad Portrait Mode, iPad Mini and Small Tablets */
+@media (max-width: 768px) {
+	 .container{
+	    max-width: 668px;
+	}
+	
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 50px;
+	}
+	.pad-bottom{
+		padding-bottom: 50px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	.inner-section{
+		padding: 50px 0;
+	}
+	.intro-header, .standard-header{
+		display: none !important;
+	}
+	.owl-controls{
+		display: none !important;
+	}
+	.intro-06 h1{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.intro-06 h1 > span{
+		background:transparent;
+	}
+	.hero-caps h1 > span{
+		border:none;
+		padding: 0px;
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.hero-caps h3{
+		font-size: 14px;
+	}
+	.main-heading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.left-wallpaper, .right-wallpaper{
+		display: none;
+	}
+	.promotional h1{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.promotional h3 > span{
+		border:none;
+	}
+	.item img{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.service-item{
+		text-align: center;
+	}
+	#filters ul li{
+		width: 90%;
+	}
+	.testimonial-carousel-item{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.intro .btn{
+		width: 50%;
+	}
+	.team-block-inner{
+		text-align: center;
+	}
+	.team-thumb{
+		display: inline-block;
+	}
+	.page-section, .separator-section{
+		padding: 0;
+	}
+	.intro-01 h3 {
+    	font-size: 36px;
+    	line-height: 48px;
+	}
+	.intro-01 h1 > span{
+		border:none;
+	}
+	.intro-02 h1{
+		font-size: 28px;
+		line-height: 35px;
+	}
+	.intro-02 h6 {
+    	font-size: 24px;
+    	line-height: 36px;
+	}
+	.intro-02 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-03 h1 {
+	    font-size: 42px;
+	    line-height: 54px;
+	}
+	.intro-03 h4 {
+	    font-size: 28px;
+	    line-height: 38px;
+	}
+	.intro-04 h3 {
+    	font-size: 36px;
+    	line-height: 48px;
+	}
+	.intro-04 h1 > span{
+		border:none;
+	}
+	.intro-05 h1{
+	    font-size: 28px;
+	    line-height: 35px;
+	}
+	.intro-05 h6{
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.intro-05 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-07 h3 {
+	    font-size: 28px;
+	    line-height: 42px;
+	}
+
+	.news-head h3{
+	    font-size: 16px;
+	    line-height: 24px;
+	    padding-top: 0px;
+	    letter-spacing: 4px;
+	}
+	.news-head h2{
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.project-head h3{
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.project-head h2{
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.misc-head h3{
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.misc-head h2{
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.team-block-wrap, .news-block-wrap{
+		padding: 40px;
+	}
+
+}
+
+/*Medium Smart Phones v2*/
+@media screen and (max-width: 640px) {
+	.container{
+	    max-width: 540px;
+	    padding-left:50px;
+	    padding-right:50px;
+	}
+	
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 50px;
+	}
+	.pad-bottom{
+		padding-bottom: 50px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	.inner-section{
+		padding: 40px 0;
+	}
+	.intro-header, .standard-header{
+		display: none !important;
+	}
+	.owl-controls{
+		display: none !important;
+	}
+	.intro-06 h1{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.intro-06 h1 > span{
+		background:transparent;
+	}
+	.hero-caps h1 > span{
+		border:none;
+		padding: 0px;
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.hero-caps h3{
+		font-size: 14px;
+	}
+	.main-heading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.left-wallpaper, .right-wallpaper{
+		display: none;
+	}
+	.promotional h1{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.promotional h3 > span{
+		border:none;
+	}
+	.item img{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.service-item{
+		text-align: center;
+	}
+	#filters ul li{
+		width: 90%;
+	}
+	.testimonial-carousel-item{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.intro .btn{
+		width: 50%;
+	}
+	.page-section, .separator-section{
+		padding: 0;
+	}
+	.intro-01 h3 {
+    	font-size: 32px;
+    	line-height: 44px;
+	}
+	.intro-01 h1 > span{
+		border:none;
+	}
+	.intro-02 h1{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.intro-02 h6 {
+    	font-size: 16px;
+    	line-height: 33px;
+	}
+	.intro-02 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-03 h1 {
+	    font-size: 38px;
+	    line-height: 50px;
+	}
+	.intro-03 h4 {
+	    font-size: 24px;
+	    line-height: 36px;
+	}
+	.intro-04 h3 {
+    	font-size: 32px;
+    	line-height: 46px;
+	}
+	.intro-04 h1 > span{
+		border:none;
+	}
+	.intro-05 h1{
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.intro-05 h6{
+	    font-size: 18px;
+	    line-height: 27px;
+	}
+	.intro-05 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-07 h3 {
+	    font-size: 24px;
+	    line-height: 36px;
+	}
+
+	.news-head h3{
+	    font-size: 16px;
+	    line-height: 24px;
+	    padding-top: 0px;
+	    letter-spacing: 4px;
+	}
+	.news-head h2{
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.project-head h3{
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.project-head h2{
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.misc-head h3{
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.misc-head h2{
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.team-block-wrap, .news-block-wrap{
+		padding: 40px;
+	}
+
+	
+} 
+
+/*Google Nexus and Other Large Smart Phones v1*/
+@media screen and (max-width: 600px) {
+	.container{
+	    max-width: 540px;
+	    padding-left:50px;
+	    padding-right:50px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 50px;
+	}
+	.pad-bottom{
+		padding-bottom: 50px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	.inner-section{
+		padding: 40px 0;
+	}
+	.intro-header, .standard-header{
+		display: none !important;
+	}
+	.owl-controls{
+		display: none !important;
+	}
+	.intro-06 h1{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.intro-06 h1 > span{
+		background:transparent;
+	}
+	.hero-caps h1 > span{
+		border:none;
+		padding: 0px;
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.hero-caps h3{
+		font-size: 14px;
+	}
+	.main-heading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.left-wallpaper, .right-wallpaper{
+		display: none;
+	}
+	.promotional h1{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.promotional h3 > span{
+		border:none;
+	}
+	.item img{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.service-item{
+		text-align: center;
+	}
+	#filters ul li{
+		width: 90%;
+	}
+	.testimonial-carousel-item{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.intro .btn{
+		width: 50%;
+	}
+	.page-section, .separator-section{
+		padding: 0;
+	}
+	.intro-01 h3 {
+    	font-size: 28px;
+    	line-height: 42px;
+	}
+	.intro-01 h1 > span{
+		border:none;
+	}
+	.intro-02 h1{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.intro-02 h6 {
+    	font-size: 14px;
+    	line-height: 31px;
+	}
+	.intro-02 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-03 h1 {
+	    font-size: 36px;
+	    line-height: 48px;
+	}
+	.intro-03 h4 {
+	    font-size: 18px;
+	    line-height: 25px;
+	}
+	.intro-04 h3 {
+    	font-size: 28px;
+    	line-height: 42px;
+	}
+	.intro-04 h1 > span{
+		border:none;
+	}
+	.intro-05 h1{
+	    font-size: 18px;
+	    line-height: 25px;
+	}
+	.intro-05 h6{
+	    font-size: 14px;
+	    line-height: 23px;
+	}
+	.intro-05 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-07 h3 {
+	    font-size: 18px;
+	    line-height: 30px;
+	}
+
+	.news-head h3{
+	    font-size: 16px;
+	    line-height: 24px;
+	    padding-top: 0px;
+	    letter-spacing: 1px;
+	}
+	.news-head h2{
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.project-head h3{
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.project-head h2{
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.misc-head h3{
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.misc-head h2{
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.team-block-wrap, .news-block-wrap{
+		padding: 40px;
+	}
+
+	
+	
+} 
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+	.container{
+	    max-width: 420px;
+	    padding-left: 30px;
+	    padding-right: 30px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 50px;
+	}
+	.pad-bottom{
+		padding-bottom: 50px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	.inner-section{
+		padding: 40px 0;
+	}
+	.intro-header, .standard-header{
+		display: none !important;
+	}
+	.owl-controls{
+		display: none !important;
+	}
+	.intro-06 h1{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.intro-06 h1 > span{
+		background:transparent;
+	}
+	.hero-caps h1 > span{
+		border:none;
+		padding: 0px;
+	}
+	.hero-caps h3{
+		font-size: 14px;
+	}
+	.main-heading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.left-wallpaper, .right-wallpaper{
+		display: none;
+	}
+	.promotional h1{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.promotional h3 > span{
+		border:none;
+	}
+	.item img{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.service-item{
+		text-align: center;
+	}
+	#filters ul li{
+		width: 90%;
+	}
+	.testimonial-carousel-item{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.intro .btn{
+		width: 80%;
+	}
+	.page-section, .separator-section{
+		padding: 0;
+	}
+	.intro-01 h3 {
+    	font-size: 28px;
+    	line-height: 42px;
+	}
+	.intro-01 h1 > span{
+		border:none;
+	}
+	.intro-02 h1{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.intro-02 h6 {
+    	font-size: 14px;
+    	line-height: 31px;
+	}
+	.intro-02 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-03 h1 {
+	    font-size: 36px;
+	    line-height: 48px;
+	}
+	.intro-03 h4 {
+	    font-size: 18px;
+	    line-height: 25px;
+	}
+	.intro-04 h3 {
+    	font-size: 28px;
+    	line-height: 42px;
+	}
+	.intro-04 h1 > span{
+		border:none;
+	}
+	.intro-05 h1{
+	    font-size: 18px;
+	    line-height: 25px;
+	}
+	.intro-05 h6{
+	    font-size: 14px;
+	    line-height: 23px;
+	}
+	.intro-05 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-07 h3 {
+	    font-size: 18px;
+	    line-height: 30px;
+	}
+
+	.news-head h3{
+	    font-size: 12px;
+	    line-height: 22px;
+	    padding-top: 0px;
+	    letter-spacing: 1px;
+	}
+	.news-head h2{
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.project-head h3{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.project-head h2{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.misc-head h3{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.misc-head h2{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.team-block-wrap, .news-block-wrap{
+		padding: 40px;
+	}
+
+	
+}
+
+/*Other Major Small Smart Phones*/
+@media screen and (max-width: 360px) {
+	.container{
+	    max-width: 320px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 50px;
+	}
+	.pad-bottom{
+		padding-bottom: 50px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	.inner-section{
+		padding: 40px 0;
+	}
+	.intro-header, .standard-header{
+		display: none !important;
+	}
+	.owl-controls{
+		display: none !important;
+	}
+	.intro-06 h1{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.intro-06 h1 > span{
+		background:transparent;
+	}
+	.hero-caps h1 > span{
+		border:none;
+		padding: 0px;
+	}
+	.hero-caps h3{
+		font-size: 14px;
+	}
+	.main-heading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.left-wallpaper, .right-wallpaper{
+		display: none;
+	}
+	.promotional h1{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.promotional h3 > span{
+		border:none;
+	}
+	.item img{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.service-item{
+		text-align: center;
+	}
+	#filters ul li{
+		width: 90%;
+	}
+	.testimonial-carousel-item{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.intro .btn{
+		width: 80%;
+	}
+	.page-section, .separator-section{
+		padding: 0;
+	}
+	.intro-01 h3 {
+    	font-size: 24px;
+    	line-height: 38px;
+	}
+	.intro-01 h1 > span{
+		border:none;
+	}
+	.intro-02 h1{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.intro-02 h6 {
+    	font-size: 10px;
+    	line-height: 27px;
+	}
+	.intro-02 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-03 h1 {
+	    font-size: 32px;
+	    line-height: 43px;
+	}
+	.intro-03 h4 {
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+	.intro-04 h3 {
+    	font-size: 24px;
+    	line-height: 38px;
+	}
+	.intro-04 h1 > span{
+		border:none;
+	}
+	.intro-05 h1{
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+	.intro-05 h6{
+	    font-size: 10px;
+	    line-height: 19px;
+	}
+	.intro-05 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-07 h3 {
+	    font-size: 14px;
+	    line-height: 28px;
+	}
+
+	.news-head h3{
+	    font-size: 12px;
+	    line-height: 22px;
+	    padding-top: 0px;
+	    letter-spacing: 1px;
+	}
+	.news-head h2{
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.project-head h3{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.project-head h2{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.misc-head h3{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.misc-head h2{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.team-block-wrap, .news-block-wrap{
+		padding: 40px;
+	}
+
+	
+}
+
+/*iPhone Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+	.container{
+	    max-width: 280px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.pad-top{
+		padding-top: 50px;
+	}
+	.pad-bottom{
+		padding-bottom: 50px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 40px 0;
+	}
+	.inner-section{
+		padding: 40px 0;
+	}
+	.intro-header, .standard-header{
+		display: none !important;
+	}
+	.owl-controls{
+		display: none !important;
+	}
+	.intro-06 h1{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.intro-06 h1 > span{
+		background:transparent;
+	}
+	.hero-caps h1 > span{
+		border:none;
+		padding: 0px;
+	}
+	.hero-caps h3{
+		font-size: 14px;
+	}
+	.main-heading{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.left-wallpaper, .right-wallpaper{
+		display: none;
+	}
+	.promotional h1{
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.promotional h3 > span{
+		border:none;
+	}
+	.item img{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.service-item{
+		text-align: center;
+	}
+	#filters ul li{
+		width: 90%;
+	}
+	.testimonial-carousel-item{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.intro .btn{
+		width: 80%;
+	}
+	.page-section, .separator-section{
+		padding: 0;
+	}
+	.intro-01 h3 {
+    	font-size: 24px;
+    	line-height: 38px;
+	}
+	.intro-01 h1 > span{
+		border:none;
+	}
+	.intro-02 h1{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.intro-02 h6 {
+    	font-size: 10px;
+    	line-height: 27px;
+	}
+	.intro-02 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-03 h1 {
+	    font-size: 32px;
+	    line-height: 43px;
+	}
+	.intro-03 h4 {
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+	.intro-04 h3 {
+    	font-size: 24px;
+    	line-height: 38px;
+	}
+	.intro-04 h1 > span{
+		border:none;
+	}
+	.intro-05 h1{
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+	.intro-05 h6{
+	    font-size: 10px;
+	    line-height: 19px;
+	}
+	.intro-05 h6 > span{
+		background:transparent;
+		color: #fff;
+	}
+	.intro-07 h3 {
+	    font-size: 14px;
+	    line-height: 28px;
+	}
+
+	.news-head h3{
+	    font-size: 12px;
+	    line-height: 22px;
+	    padding-top: 0px;
+	    letter-spacing: 1px;
+	}
+	.news-head h2{
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.project-head h3{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.project-head h2{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.misc-head h3{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.misc-head h2{
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.team-block-wrap, .news-block-wrap{
+		padding: 40px;
+	}
+	.email-wrap , .email-heading{
+			font-size:15px;
+	}
+}
+
+
+
