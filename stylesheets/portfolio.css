@@ -20,12 +20,12 @@
 /* Portfolio Filters */ 
 
     #filters {
-        padding-top: 40px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
         text-align: center;
         display: block;
         float: none;
-        z-index: 2;
+        z-index: 1;
         position: relative;
     }
     
