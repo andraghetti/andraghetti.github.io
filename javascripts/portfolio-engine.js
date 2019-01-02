@@ -114,6 +114,15 @@ $(document).ready(function(){
 
 });
 
+
+
+
+
+
+
+
+
+
 //Expander Slider
 function initBxModal() {
     $('.project-slider').bxSlider({
@@ -125,6 +134,9 @@ function initBxModal() {
     
   });
 };
+
+
+
 
 //FullScreen Slider
 $(function (){
