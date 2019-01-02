@@ -94,19 +94,6 @@ $(document).ready(function() {
 
 });
 
-
-//TWITTER INIT (Updated with compatibility on Twitter's new API):
-//PLEASE READ DOCUMENTATION FOR INFO ABOUT SETTING UP YOUR OWN TWITTER CREDENTIALS:
-$(function ($) {
-          $('#ticker').tweet({
-              modpath: './twitter/',
-              count: 1,
-              loading_text: 'loading twitter update...',
-              username:'andraghetti'
-              /* etc... */
-          });
-}); 
-
     //Portfolio Filter Active State
     $('ul#portfolioFilter li').click(function(){
       $('ul#portfolioFilter li').removeClass('active-filter');
