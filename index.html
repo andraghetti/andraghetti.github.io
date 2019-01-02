@@ -25,13 +25,8 @@
 <link href="fonts/fonts.css" rel="stylesheet">
 <!-- CSS files for plugins -->
 <link href="stylesheets/pace.preloader.css" rel="stylesheet">
-<link href="stylesheets/owl.carousel.css" rel="stylesheet">
-<link href="stylesheets/owl.theme.css" rel="stylesheet">
-<link href="stylesheets/venobox.css" rel="stylesheet" />
 <link href="stylesheets/animate.css" rel="stylesheet">
-<link href="stylesheets/slidingmenu.css" rel="stylesheet">
 <link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
-<link href="stylesheets/venobox.css" rel="stylesheet" />
 <link href="stylesheets/animate.css" rel="stylesheet">
 <link href="stylesheets/portfolio.css" rel="stylesheet" />
 <link href="stylesheets/toppanel.css" rel="stylesheet">
@@ -66,22 +61,16 @@
 		<article class="col-md-3 text-left">
 		    	<img title="Home" class="home-logo img-responsive" src="images/badge.png"/></a>
 		</article>
-		<!-- <article class="col-md-9 text-right">
-		    <ul class="intro-nav intronav-white-text visible-lg">
-				<li><a href="#" class="trigger-toppanel home-logo img-responsive"><img src="images/menu-white.png"/></a></li>
-			</ul>
-		</article> -->
 	</div>
 </header>
 <!-- masthead-section:ends -->	
 
 <!-- Home / Intro : starts -->	
-<section id="intro" class="intro intro-01 parallax text-center">
+<section id="intro" class="intro parallax">
 		<div class="valign">
 			<div class="pad-inner">
 				<h3 class="white">Lorenzo Andraghetti</h3>
-				<h3 class="white"></h>
-				<h1 class="white"><span>Computer Engineer</span></h1>
+				<h1 class="white">Computer Engineer</h1>
 			</div>
 		</div>
 		<!-- valign:ends -->
@@ -97,14 +86,6 @@
 				<article class="col-md-2 text-left">
 				    	<img class="main-logo img-responsive" src="images/main-logo.png"/>
         </article>
-				<article class="col-md-10 text-right">
-				    	<ul class="standard-nav standard-nav-dark-text visible-lg">
-						<li><a href="#intro" class="scroll highlighted" id="intro-linker">Home</a></li>
-						<li><a href="#about" class="scroll" id="about-linker">About</a></li>
-						<!-- <li><a href="#news" class="scroll" id="news-linker">Pages</a></li> -->
-						<li><a href="#portfolio" class="scroll" id="portfolio-linker">My Works</a></li>
-					</ul>
-				</article>
 		</div>
 	</div>
 
@@ -122,9 +103,21 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1 text-center animated" data-fx="bounceInUp">
-				    	<img src="images/icons/portfolio.png"/>
 						<h1 class="main-heading white" style="padding-top: 30px;">My Projects</h1>
-				</div>
+        </div>
+        
+        <!-- Portfolio Filters -->   
+        <div  id="filters" class="silver-bg col-md-12">
+            <ul class="clearfix">
+              <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
+              <li><a href="#" data-filter=".Python"><h5>Python</h5></a></li>
+              <li><a href="#" data-filter=".Swift"><h5>Swift (iOS)</h5></a></li>
+              <li><a href="#" data-filter=".VR"><h5>VR</h5></a></li>
+              <li><a href="#" data-filter=".VHDL"><h5>VHDL</h5></a></li>
+              <li><a href="#" data-filter=".History"><h5>History</h5></a></li>
+            </ul>
+          </div>
+          <!--/Portfolio Filters -->
 			</div>
 		</div>
 	</section>	
@@ -135,194 +128,171 @@
 	<!-- inner-section:starts -->
 	<section class="inner-section">
 
-
-
-
-  <div class="portfolio-top"></div>          
-  
+    <div class="portfolio-top"></div>          
     <!-- Portfolio Plus Filters -->
     <div class="portfolio">
+      <!-- Portfolio Wrap -->  
+      <div id="portfolio-wrap" class="white-bg">
 
-      <!-- Portfolio Filters -->   
-      <div  id="filters" class="silver-bg col-md-12">
+          <!-- Portfolio Item External Project  -->                   
+          <div class="portfolio-item one-four Python">
+          
+          <div class="portfolio-image">
+            <img src="../images/projects/monodepth/monodepth.png" />  
+          </div>
+          
+          <a href="https://www.youtube.com/watch?v=hEeQXNva2_s">  
+            <div class="project-overlay">              
+                <div class="project-info">
+                  <div class="zoom-icon"></div>
+                  <h4 class="project-name">Monodepth + Slam</h4>
+                  <p class="project-categories">My master thesis @ Univrses</p>
+                </div>
+            </div>
+          </a> 
+          </div>
+          <!--/Portfolio Item External Project  -->
+
+          <!-- Portfolio Item External Project  -->                   
+          <div class="portfolio-item one-four Python">
+          
+          <div class="portfolio-image">
+              <img src="../images/projects/gammaray/gammaray.png" />  
+          </div>
+          
+          <a href="https://github.com/ThreeGuysHere/cta-gamma-ray-analysis">  
+              <div class="project-overlay">              
+                  <div class="project-info">
+                    <div class="zoom-icon"></div>
+                    <h4 class="project-name">CTA Gamma Ray Analysis</h4>
+                    <p class="project-categories">Computer Vision Project in collaboration with INAF</p>
+                  </div>
+              </div>
+          </a> 
+          </div>
+          <!--/Portfolio Item External Project  -->
     
-          <ul class="clearfix">
-            <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
-            <li><a href="#" data-filter=".Python"><h5>Python</h5></a></li>
-            <li><a href="#" data-filter=".Swift"><h5>Swift (iOS)</h5></a></li>
-            <li><a href="#" data-filter=".VR"><h5>VR</h5></a></li>
-			<li><a href="#" data-filter=".VHDL"><h5>VHDL</h5></a></li>
-			<li><a href="#" data-filter=".History"><h5>History</h5></a></li>
-
-          </ul>
-        </div>
-        <!--/Portfolio Filters -->
+          <!-- Portfolio Item External Project  -->                   
+          <div class="portfolio-item one-four History">
+          
+          <div class="portfolio-image">
+              <img src="../images/projects/Mingazzi/prgimage.png" />  
+          </div>
+          
+          <a href="https://github.com/andraghetti/mingazzi">
+              <div class="project-overlay">              
+                  <div class="project-info">
+                    <div class="zoom-icon"></div>
+                    <h4 class="project-name">Personaggi Alfonsinesi</h4>
+                    <p class="project-categories">My book about novels written in 1945<br> by a relative of mine</p>
+                  </div>
+              </div>
+          </a> 
+          </div>
+          <!--/Portfolio Item External Project  -->
     
+          <!-- Portfolio Item External Project  -->                   
+          <div class="portfolio-item one-four VR">
+          
+          <div class="portfolio-image">
+              <img src="../images/projects/VRBike/prgimage.png" />  
+          </div>
+          
+          <a href="https://github.com/andraghetti/VRBike">
+              <div class="project-overlay">              
+                  <div class="project-info">
+                    <div class="zoom-icon"></div>
+                    <h4 class="project-name">VRBike</h4>
+                    <p class="project-categories">My Bachelor's thesis about Virtual Reality</p>
+                  </div>
+              </div>
+          </a> 
+          </div>
+          <!--/Portfolio Item External Project  -->
+    
+          <!-- Portfolio Item External Project  -->                   
+          <div class="portfolio-item one-four Swift">
+          
+          <div class="portfolio-image">
+              <img src="../images/projects/Sarcophagus/prgimage.png" />  
+          </div>
+          
+          <a href="https://github.com/andraghetti/Sarcophagus">  
+              <div class="project-overlay">              
+                  <div class="project-info">
+                    <div class="zoom-icon"></div>
+                    <h4 class="project-name">Sarcophagus</h4>
+                    <p class="project-categories">My Apprenticeship work @ UniBo</p>
+                  </div>
+              </div>
+          </a> 
+          </div>
+          <!--/Portfolio Item External Project  -->
+    
+          <!-- Portfolio Item External Project  -->                   
+          <div class="portfolio-item one-four History">
 
-        <!-- Portfolio Wrap -->  
-        <div id="portfolio-wrap" class="white-bg">
+          <div class="portfolio-image">
+              <img src="../images/projects/Lettere/prgimage.png" />
+          </div>
 
-            <!-- Portfolio Item External Project  -->                   
-            <div class="portfolio-item one-four Python">
-            
-            <div class="portfolio-image">
-                <img src="../images/projects/monodepth/monodepth.png" />  
-            </div>
-            
-            <a href="https://www.youtube.com/watch?v=hEeQXNva2_s">  
-                <div class="project-overlay">              
-                    <div class="project-info">
-	                    <div class="zoom-icon"></div>
-	                    <h4 class="project-name">Monodepth + Slam</h4>
-	                    <p class="project-categories">My master thesis @ Univrses</p>
-                    </div>
-                </div>
-            </a> 
-            </div>
-            <!--/Portfolio Item External Project  -->
+          <a href="../pages/lettere.html">
+              <div class="project-overlay">
+                  <div class="project-info">
+                    <div class="zoom-icon"></div>
+                    <h4 class="project-name">Lettere di Mariannina Gagliardi</h4>
+                    <p class="project-categories">Storia del mio paese</p>
+                  </div>
+              </div>
+          </a>
 
-            <!-- Portfolio Item External Project  -->                   
-            <div class="portfolio-item one-four Python">
-            
-            <div class="portfolio-image">
-                <img src="../images/projects/gammaray/gammaray.png" />  
-            </div>
-            
-            <a href="https://github.com/ThreeGuysHere/cta-gamma-ray-analysis">  
-                <div class="project-overlay">              
-                    <div class="project-info">
-	                    <div class="zoom-icon"></div>
-	                    <h4 class="project-name">CTA Gamma Ray Analysis</h4>
-	                    <p class="project-categories">Computer Vision Project in collaboration with INAF</p>
-                    </div>
-                </div>
-            </a> 
-            </div>
-            <!--/Portfolio Item External Project  -->
-			
-            <!-- Portfolio Item External Project  -->                   
-            <div class="portfolio-item one-four History">
-            
-            <div class="portfolio-image">
-                <img src="../images/projects/Mingazzi/prgimage.png" />  
-            </div>
-            
-            <a href="https://github.com/andraghetti/mingazzi">
-                <div class="project-overlay">              
-                    <div class="project-info">
-	                    <div class="zoom-icon"></div>
-	                    <h4 class="project-name">Personaggi Alfonsinesi</h4>
-	                    <p class="project-categories">My book about novels written in 1945<br> by a relative of mine</p>
-                    </div>
-                </div>
-            </a> 
-            </div>
-            <!--/Portfolio Item External Project  -->
-			
-            <!-- Portfolio Item External Project  -->                   
-            <div class="portfolio-item one-four VR">
-            
-            <div class="portfolio-image">
-                <img src="../images/projects/VRBike/prgimage.png" />  
-            </div>
-            
-            <a href="https://github.com/andraghetti/VRBike">
-                <div class="project-overlay">              
-                    <div class="project-info">
-	                    <div class="zoom-icon"></div>
-	                    <h4 class="project-name">VRBike</h4>
-	                    <p class="project-categories">My Bachelor's thesis about Virtual Reality</p>
-                    </div>
-                </div>
-            </a> 
-            </div>
-            <!--/Portfolio Item External Project  -->
-			
-            <!-- Portfolio Item External Project  -->                   
-            <div class="portfolio-item one-four Swift">
-            
-            <div class="portfolio-image">
-                <img src="../images/projects/Sarcophagus/prgimage.png" />  
-            </div>
-            
-            <a href="https://github.com/andraghetti/Sarcophagus">  
-                <div class="project-overlay">              
-                    <div class="project-info">
-	                    <div class="zoom-icon"></div>
-	                    <h4 class="project-name">Sarcophagus</h4>
-	                    <p class="project-categories">My Apprenticeship work @ UniBo</p>
-                    </div>
-                </div>
-            </a> 
-            </div>
-            <!--/Portfolio Item External Project  -->
-			
-            <!-- Portfolio Item External Project  -->                   
-            <div class="portfolio-item one-four History">
+          </div>
+          <!--/Portfolio Item External Project  -->
+    
+          <!-- Portfolio Item External Project  -->                   
+          <div class="portfolio-item one-four History">
 
-            <div class="portfolio-image">
-                <img src="../images/projects/Lettere/prgimage.png" />
-            </div>
+          <div class="portfolio-image">
+              <img src="../images/projects/Quaderni/prgimage.png" />
+          </div>
 
-            <a href="../pages/lettere.html">
-                <div class="project-overlay">
-                    <div class="project-info">
-	                    <div class="zoom-icon"></div>
-	                    <h4 class="project-name">Lettere di Mariannina Gagliardi</h4>
-	                    <p class="project-categories">Storia del mio paese</p>
-                    </div>
-                </div>
-            </a>
+          <a href="../pages/quaderni.html">
+              <div class="project-overlay">
+                  <div class="project-info">
+                    <div class="zoom-icon"></div>
+                    <h4 class="project-name">Quaderni Alfonsinesi</h4>
+                    <p class="project-categories">Raccolta dei Quaderni Alfonsinesi</p>
+                  </div>
+              </div>
+          </a>
 
-            </div>
-            <!--/Portfolio Item External Project  -->
-			
-            <!-- Portfolio Item External Project  -->                   
-            <div class="portfolio-item one-four History">
+          </div>
+          <!--/Portfolio Item External Project  -->
+    
+          <!-- Portfolio Item External Project  -->                   
+          <div class="portfolio-item one-four VHDL">
 
-            <div class="portfolio-image">
-                <img src="../images/projects/Quaderni/prgimage.png" />
-            </div>
+          <div class="portfolio-image">
+              <img src="../images/projects/FPGA/prgimage.png" />
+          </div>
 
-            <a href="../pages/quaderni.html">
-                <div class="project-overlay">
-                    <div class="project-info">
-	                    <div class="zoom-icon"></div>
-	                    <h4 class="project-name">Quaderni Alfonsinesi</h4>
-	                    <p class="project-categories">Raccolta dei Quaderni Alfonsinesi</p>
-                    </div>
-                </div>
-            </a>
+          <a href="https://github.com/riccardoalbertazzi/Template-Matching-FPGA">
+              <div class="project-overlay">
+                  <div class="project-info">
+                    <div class="zoom-icon"></div>
+                    <h4 class="project-name">Template Matching FPGA</h4>
+                    <p class="project-categories">Sistemi Digitali</p>
+                  </div>
+              </div>
+          </a>
 
-            </div>
-            <!--/Portfolio Item External Project  -->
-			
-            <!-- Portfolio Item External Project  -->                   
-            <div class="portfolio-item one-four VHDL">
-
-            <div class="portfolio-image">
-                <img src="../images/projects/FPGA/prgimage.png" />
-            </div>
-
-            <a href="https://github.com/riccardoalbertazzi/Template-Matching-FPGA">
-                <div class="project-overlay">
-                    <div class="project-info">
-	                    <div class="zoom-icon"></div>
-	                    <h4 class="project-name">Template Matching FPGA</h4>
-	                    <p class="project-categories">Sistemi Digitali</p>
-                    </div>
-                </div>
-            </a>
-
-            </div>
-            <!--/Portfolio Item External Project  -->
+          </div>
+          <!--/Portfolio Item External Project  -->
       </div>
       <!--/Portfolio Wrap -->
             
-        </div>
-        <!--/Portfolio Plus Filters -->
-        
-        <div class="portfolio-bottom"></div>
+    </div>
+    <!--/Portfolio Plus Filters -->
 	</section>	
 	<!-- inner-section:ends -->	
 </section>
